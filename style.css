@@ -149,13 +149,32 @@ border-radius: 20px;
     top: 100px;
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 30px;
-    
+}
+#i1,#i2,#i3{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    height: 30px;
+    border-collapse: collapse;
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+#i4{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    height: 30px;
+    border-collapse: collapse;
+}
+td{
+    border-right:1px solid rgba(255, 255, 255, 0.5) ;
+    padding: 5px;
+    padding-left: 10px;
+
+}
+td:last-child,th:last-child{
+    border-right: none;
 }
 /* th{
     border:solid rgba(255, 255, 255, 0.5);
     border-width: 1px;
 } */
-/* th{
+th{
     background-color: black;
     border-radius: 30px;
-} */
+}
